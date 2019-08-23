@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Read?</th>
+        </tr>
+
+    </table>
+    <!-- remove br later -->
+    <br>
+    <br>
+    <button id='toggleForm'>Add Book</button>
+    <form id='addBookForm'>
+        <p id='formError'>Fill in the required fields.</p>
+        <label id='titleHeader'>Title</label>
+        <input type='text' id='titleForm'>
+        <label id='authorHeader'>Author</label>
+        <input type='text' id='authorForm'>
+        <label id='pagesHeader'>Pages</label>
+        <input type='number' id='pagesForm'>
+        <label id='readHeader'>Read</label>
+        <input type='checkbox' id='readForm'>
+        <button>Cancel</button>
+        <button type="button" id='submitButton'>Submit</button>
+    </form>
+
+<script src='library.js'></script>
+</body>
+</html>
